@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/productos")
 @AllArgsConstructor
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"https://faithful-enthusiasm-production.up.railway.app"})
 public class ProductoController {
 
     @Autowired
